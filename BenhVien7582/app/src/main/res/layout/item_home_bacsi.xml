@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C0C0C0"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:id="@+id/tv_tenkhachhang_home_bs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyen Van A"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/mhinhthuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_tenkhachhang_home_bs"
+        android:layout_marginTop="2dp"
+        android:text="Hình Thức :"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_hinhthuc_home_bs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_tenkhachhang_home_bs"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/mhinhthuc"
+        android:text="Khu A_201"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/mTrangThai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mhinhthuc"
+        android:layout_marginTop="2dp"
+        android:text="Trạng Thái :"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_trang_thai_home_bs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mhinhthuc"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/mTrangThai"
+        android:text="Đang Chờ Khám"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+</RelativeLayout>

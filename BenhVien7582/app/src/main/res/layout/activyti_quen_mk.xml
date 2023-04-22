@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/tv_nhapsdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Nhập Email"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edt_nhap_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nhapsdt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_edit_text"
+        android:hint="Nhập email của bạn"
+        android:inputType="textEmailAddress" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_check_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/edt_nhap_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:text="Check"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+
+
+
+
+</RelativeLayout>

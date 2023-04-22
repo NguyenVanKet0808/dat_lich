@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu">
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/tv_chon_khoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chọn Khoa"
+            android:focusable="false"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu">
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/tv_chon_bac_si"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chọn Bác Sĩ"
+            android:focusable="false"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginRight="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tv_chon_ngay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_calender"
+            android:focusable="false"
+            android:hint="Chọn Ngày"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu">
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/tv_chon_thoi_gian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chọn Thời Gian"
+            android:focusable="false"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu">
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/tv_chon_hinh_thuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chọn Hình Thức"
+            android:focusable="false"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_bottomsheet_xac_nhan_add_lich_hen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/mauchinh"
+        android:text="Xác Nhận"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="20dp" />
+
+</LinearLayout>

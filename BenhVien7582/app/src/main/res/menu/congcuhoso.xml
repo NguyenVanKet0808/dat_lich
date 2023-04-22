@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_home_bs"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/item_lich_lam_bs"
+        android:title="lịch Làm Việc"
+        android:icon="@drawable/ic_lich"/>
+    <item android:id="@+id/item_tra_cuu_benh_nhan"
+        android:title="Tra Cứu Bệnh Nhân"
+        android:icon="@drawable/ic_search"/>
+</menu>

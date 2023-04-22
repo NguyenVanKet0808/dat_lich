@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/xeplich"
+        android:title="Xếp Lịch"
+        android:icon="@drawable/ic_lich"/>
+    <item android:id="@+id/taotaikhoan"
+        android:title="Tạo Tài Khoản"
+        android:icon="@drawable/ic_taotaikhoan"/>
+
+</menu>

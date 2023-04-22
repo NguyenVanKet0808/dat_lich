@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backround"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/tv_back"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:src="@drawable/ic_back"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_avt"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_758" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_passwod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Passwod"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_dangky"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/edt_passwod"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custombutton"
+        android:text="Đăng Ký"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+
+
+</LinearLayout>

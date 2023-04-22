@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/khachhang"
+        android:title="Khách Hàng"/>
+    <item android:id="@+id/bacsi"
+        android:title="Bác sĩ"/>
+    <item android:id="@+id/truongkhoa"
+        android:title="Trưởng Khoa"/>
+
+</menu>

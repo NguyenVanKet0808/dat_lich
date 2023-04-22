@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Lịch Hôm Nay"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/img_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/ic_home"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_ngay_lam_bs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời Gian"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sáng"
+            android:layout_marginLeft="30dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="10dp">
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recylerview_sang_bs"
+           android:layout_width="match_parent"
+           android:layout_height="350dp"
+           android:visibility="gone"
+           app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+       <TextView
+           android:id="@+id/tv_thongbao_sang"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:background="#C0C0C0"
+           android:gravity="center"
+           android:text="Bạn không có lịch khám trong thời gian này"
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           android:visibility="visible" />
+   </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời Gian"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều"
+            android:layout_marginLeft="30dp"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recylerview_chieu_bs"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <TextView
+            android:id="@+id/tv_thongbao_chieu"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#C0C0C0"
+            android:gravity="center"
+            android:text="Bạn không có lịch khám trong thời gian này"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>

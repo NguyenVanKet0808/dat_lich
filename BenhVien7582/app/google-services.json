@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "963852297922",
+    "project_id": "benhvien758",
+    "storage_bucket": "benhvien758.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963852297922:android:d289bcebb7812794e23d5b",
+        "android_client_info": {
+          "package_name": "com.example.benhvien758"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963852297922-qdjntaqrj03fe0ih7rcvsno68jn3kort.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIRwF9mTc9z7ow7rtivkfgw0ZBBlMnRDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963852297922-qdjntaqrj03fe0ih7rcvsno68jn3kort.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

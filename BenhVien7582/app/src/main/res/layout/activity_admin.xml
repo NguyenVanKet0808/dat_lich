@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backround"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Trưởng Khoa"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/mauchinh"
+        android:gravity="center"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_quan_li_khoa"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Quản Lí Khoa"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_home"
+        android:drawableRight="@drawable/ic_qua_phai"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_quan_li_tai_khoan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Phân Quyền Tài Khoản"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_home"
+        android:drawableRight="@drawable/ic_qua_phai"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_tim_kiem_ho_so_benh_an"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Tìm kiếm hồ sơ bệnh án"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_home"
+        android:drawableRight="@drawable/ic_qua_phai"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_quan_li_ho_tro"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Quản Lí Hỗ Trợ"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_home"
+        android:drawableRight="@drawable/ic_qua_phai"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_thoat_admin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_checkout"
+        android:text="Thoát"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/mauchinh"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C0C0C0"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:id="@+id/ngay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:text="01/01/2023"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/mbacsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bác Sĩ :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/ngay"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/tenbasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/mbacsi"
+        android:text="Nguyen Van A"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/mBuoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buổi :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/ngay"
+        android:layout_below="@id/mbacsi"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/Buoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mbacsi"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/mBuoi"
+        android:text="Sáng"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mhinhthuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mBuoi"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/ngay"
+        android:text="Hình Thức :"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/hinhthuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mBuoi"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/mhinhthuc"
+        android:text="Khu A _ 201"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/mKhoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khoa :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/ngay"
+        android:layout_below="@id/mhinhthuc"
+        android:layout_marginTop="2dp"/>
+    <TextView
+        android:id="@+id/Khoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mhinhthuc"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/mKhoa"
+        android:text="Răng-Hàm-Mặt"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"/>
+
+</RelativeLayout>

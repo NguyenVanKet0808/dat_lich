@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngay"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sáng"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recylerview_danh_sach_sang"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="gone"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+            <TextView
+                android:id="@+id/tv_thongbao_sang_lich_kham"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#C0C0C0"
+                android:gravity="center"
+                android:text="Bạn không có lịch khám trong thời gian này"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recylerview_danh_sach_chieu"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="gone"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+            <TextView
+                android:id="@+id/tv_thongbao_chieu_lich_kham"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#C0C0C0"
+                android:gravity="center"
+                android:text="Bạn không có lịch khám trong thời gian này"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

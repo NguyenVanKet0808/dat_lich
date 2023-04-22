@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/a1"
+        android:title="Mũi 1"/>
+    <item android:id="@+id/a2"
+        android:title="Mũi 2"/>
+    <item android:id="@+id/a3"
+        android:title="Mũi 3"/>
+    <item android:id="@+id/a4"
+        android:title="Mũi 4"/>
+    <item android:id="@+id/a5"
+        android:title="Mũi 5"/>
+
+</menu>

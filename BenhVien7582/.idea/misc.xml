@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/custom_button1.xml" value="0.185" />
+        <entry key="app/src/main/res/drawable/custom_edit_text.xml" value="0.1325" />
+        <entry key="app/src/main/res/drawable/custom_edittext.xml" value="0.185" />
+        <entry key="app/src/main/res/drawable/custom_logo_main.xml" value="0.21" />
+        <entry key="app/src/main/res/drawable/custom_textview.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/custom_textview_1.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/custombutton.xml" value="0.185" />
+        <entry key="app/src/main/res/drawable/ic_add_lich.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_avt.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_calender.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/ic_history.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_ketqua.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/ic_lich.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/ic_mess.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/ic_thongbao.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_use_1.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/ic_use_2.xml" value="0.176" />
+        <entry key="app/src/main/res/layout/activity_admin.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_capnhatthongtin1.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_fragment_dat_lich.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_fragment_henlich.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_fragment_home_kh.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_fragment_hoso.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_home_kh_activyti.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_login_bac_si.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_login_bac_si_truong.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_login_bacsi.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_login_dieuduong.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_login_khachhang.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_taotaikhoan_khachhang.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_tongket.xml" value="0.21603260869565216" />
+        <entry key="app/src/main/res/layout/activity_top_navigation.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_trang_chinh_bac_si.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_trang_chinh_bac_si_truong.xml" value="0.3729166666666667" />
+        <entry key="app/src/main/res/layout/activity_trang_chinh_khach_hang.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_trangchinh.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_trangchu_bacsi.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/layout/activyti_chat.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activyti_chat_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activyti_login_admin.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/activyti_quan_li_chat.xml" value="0.371875" />
+        <entry key="app/src/main/res/layout/activyti_quen_mk.xml" value="0.371875" />
+        <entry key="app/src/main/res/layout/activyti_tra_cuu.xml" value="0.3880208333333333" />
+        <entry key="app/src/main/res/layout/benhan.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/bottomsheetdialog_edt_vai_tro.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/bottomsheetdialog_edt_vai_trp.xml" value="0.3383152173913043" />
+        <entry key="app/src/main/res/layout/bottomsheetdialog_xep_lich.xml" value="0.29375" />
+        <entry key="app/src/main/res/layout/bottomshetdialog_dat_lich.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/danh_sach_bacsi.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/danh_sach_khoa.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/danh_sach_tai_khoan.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/layout/danhsachhenlich.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/dialog_chon_bacsi.xml" value="0.15020263424518743" />
+        <entry key="app/src/main/res/layout/dialog_chonkhoa.xml" value="0.29375" />
+        <entry key="app/src/main/res/layout/dialog_tao_khoa.xml" value="0.21603260869565216" />
+        <entry key="app/src/main/res/layout/fragment_datlich.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_home_bs.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_home_kh.xml" value="0.22962962962962963" />
+        <entry key="app/src/main/res/layout/fragment_hoso.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_lich_lam_viec.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/fragment_lich_su_kham_kh.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_lichsukham.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/fragment_tao_tai_khoan_bacsi.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_thongbao.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/fragment_thongtincanhan.xml" value="0.29375" />
+        <entry key="app/src/main/res/layout/fragment_tra_cuu.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_tra_ket_qua.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_xep_lich.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/hoso_lichkham.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/hoso_lichsu.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/hoso_lichsukham.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/item_admin_chat.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_chat.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_chat_admin.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/item_home_bacsi.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_tra_cuu_benh_nhan_bs.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/lichsu.xml" value="0.29375" />
+        <entry key="app/src/main/res/layout/login_admin.xml" value="0.21603260869565216" />
+        <entry key="app/src/main/res/layout/quan_li_khoa.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/quan_li_tai_khoan.xml" value="0.3880208333333333" />
+        <entry key="app/src/main/res/layout/text.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/thongbao_khachhang.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/toast.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/trang_chu_admin.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/benhkhaibao.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/congcu.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/menu/congcu_truong_khoa.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/menu/congcuhoso.xml" value="0.24322916666666666" />
+        <entry key="app/src/main/res/menu/covid.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/menu/gioitinh.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/menu/henlich.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/huyetap.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/khoa.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/menu/phan_quyen_admin.xml" value="0.24322916666666666" />
+        <entry key="app/src/main/res/menu/phan_quyen_truong_khoa.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

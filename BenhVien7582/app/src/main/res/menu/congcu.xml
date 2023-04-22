@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/mauchinh"/>
+    <item android:id="@+id/datlich"
+        android:title="Đặt Lịch"
+        android:icon="@drawable/ic_lich"
+        android:iconTint="@color/mauchinh"/>
+    <item android:id="@+id/hoso"
+        android:title="Hồ Sơ"
+        android:icon="@drawable/ic_avt"
+        android:iconTint="@color/mauchinh"/>
+
+</menu>
